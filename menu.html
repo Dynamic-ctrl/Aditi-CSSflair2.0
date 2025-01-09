@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Leaf Menu</title>
+  <link rel="stylesheet" href="star.css">
+  <script src="star.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <img src ="C:\Users\Ishani Jindal\Downloads\Coffee leaf.jpeg" alt="Coffee Leaf Logo" class="logo">
+    <h1>Our Menu</h1>
+    <p>Find your perfect brew</p>
+  </header>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item" data-name="Espresso" data-price="2.5">
+      <h3>Espresso</h3>
+      <p>Price: $2.50</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="menu-item" data-name="Cappuccino" data-price="3.5">
+      <h3>Cappuccino</h3>
+      <p>Price: $3.50</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="menu-item" data-name="Latte" data-price="4.0">
+      <h3>Latte</h3>
+      <p>Price: $4.00</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="menu-item" data-name="Mocha" data-price="4.5">
+      <h3>Mocha</h3>
+      <p>Price: $4.50</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <a href="mood.html" class="cta"> Can't select, don't worry! We got you!</a>
+  </section>
+
+   <!-- Cart Section -->
+   <section id="cart">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <p>Total: $<span id="total-price">0.00</span></p>
+    <button id="checkout">Proceed to Order</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Coffee Leaf. Sustainable Brews for a Better World.</p>
+  </footer>
+</body>
+</html>

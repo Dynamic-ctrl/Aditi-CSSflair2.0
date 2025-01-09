@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Your Coffee - Coffee Leaf</title>
+  <link rel="stylesheet" href="star.css">
+  <script src="star.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="hero">
+    <img src ="C:\Users\Ishani Jindal\Downloads\Coffee leaf.jpeg" alt="Coffee Leaf Logo" class="logo">
+    <h1> Coffee-selector </h1>
+    <p>Select your mood, and we'll suggest the perfect brew!</p>
+  </header>
+
+  <!-- Mood Selector -->
+  <section class="mood-selector">
+    <h2>Choose Your Mood</h2>
+    <form id="mood-form">
+      <label>
+        <input type="radio" name="mood" value="Energetic"> Energetic
+      </label>
+      <label>
+        <input type="radio" name="mood" value="Relaxed"> Relaxed
+      </label>
+      <label>
+        <input type="radio" name="mood" value="Focused"> Focused
+      </label>
+      <label>
+        <input type="radio" name="mood" value="Tired"> Tired
+      </label>
+      <button type="submit">Find My Coffee</button>
+    </form>
+    <div id="suggestion" class="suggestion"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Coffee Leaf. Sustainable Brews for a Better World.</p>
+  </footer>
+</body>
+</html>
